@@ -5,9 +5,7 @@ const logger = require('morgan');
 const cors = require('cors');
 const swaggerUi = require('swagger-ui-express');
 const swaggerOptions = { customCssUrl: '/swagger-ui.css' };
-
 const routes = require('./src/routes');
-
 const app = express();
 require('dotenv').config();
 
