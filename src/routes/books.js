@@ -73,7 +73,7 @@ router.get('/:id', DBconnect, async function (req, res) {
 
     res.status(200).json({
       status: "ok",
-      statusMensagem: "Livros listados com sucesso",
+      statusMensagem: "Livro listado com sucesso",
       resposta: DBanswer,
     })
   } catch (error) {
